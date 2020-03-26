@@ -6,6 +6,7 @@
 </head>
 <body>
     <h2 style="color:royalblue">登录</h2>
+    <p style="color:red"><a href="{{url('aouth')}}">扫码登录-></a></p>
     <form action="{{url('dologin')}}" method="post">
         <input type="tel" name="tel" placeholder="请输入手机号"><br>
         <input type="password" name="pwd" placeholder="请输入密码"><br>

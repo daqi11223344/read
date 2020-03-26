@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<img src="{{url('storage/app/public/1.png')}}" alt="">
+<img src="{{url('./storage/1.png')}}" alt="">
+    <p>扫一扫登录</p>
 </body>
 </html>
