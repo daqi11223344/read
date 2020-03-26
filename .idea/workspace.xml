@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="943ffe1a-9fdd-4171-8322-e2b6928aa59e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/index/wx.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index/aouth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/aouth.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/login/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +31,7 @@
           <entry key="env" value="1" />
           <entry key="html" value="1" />
           <entry key="php" value="19" />
-          <entry key="png" value="3" />
+          <entry key="png" value="6" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -46,7 +40,7 @@
           <entry key="Blade" value="5" />
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="Image" value="3" />
+          <entry key="Image" value="6" />
           <entry key="PHP" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="1" />
@@ -55,14 +49,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="21" />
-          <entry key="php" value="1414" />
+          <entry key="php" value="1431" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="612" />
+          <entry key="Blade" value="616" />
           <entry key="HTML" value="1" />
-          <entry key="PHP" value="801" />
+          <entry key="PHP" value="814" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
@@ -70,16 +64,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            <state relative-caret-position="122">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <element signature="e#46#82#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index/aouth.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="72">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -116,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="66" />
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -124,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="774">
-              <caret line="43" column="77" lean-forward="true" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+              <caret line="43" column="77" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
               <folding>
                 <element signature="e#2817#2851#0#HTML" expanded="true" />
                 <element signature="e#2901#2935#0#HTML" expanded="true" />
@@ -179,10 +170,10 @@
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/login/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/wx.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" />
-        <option value="$PROJECT_DIR$/resources/views/index/aouth.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/index.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/index/aouth.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" />
       </list>
     </option>
   </component>
@@ -299,7 +290,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="314" />
     <option name="y" value="-8" />
     <option name="width" value="1024" />
@@ -339,25 +330,44 @@
             <path>
               <item name="read" type="b2602c69:ProjectViewProjectNode" />
               <item name="read" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="read" type="b2602c69:ProjectViewProjectNode" />
               <item name="read" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="read" type="b2602c69:ProjectViewProjectNode" />
               <item name="read" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="read" type="b2602c69:ProjectViewProjectNode" />
               <item name="read" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="read" type="b2602c69:ProjectViewProjectNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="read" type="b2602c69:ProjectViewProjectNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="read" type="b2602c69:ProjectViewProjectNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,12 +415,12 @@
       <updated>1585101886097</updated>
       <workItem from="1585101887532" duration="1329000" />
       <workItem from="1585120824192" duration="18907000" />
-      <workItem from="1585187675745" duration="8255000" />
+      <workItem from="1585187675745" duration="11764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28491000" />
+    <option name="totallyTimeSpent" value="32000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,10 +432,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16868381" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16868381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TODO" order="0" weight="0.32956383" />
@@ -477,6 +487,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="3300" lean-forward="true" selection-start-line="3300" selection-end-line="3300" />
+          <folding>
+            <element signature="e#7#1362#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="e#16#22#0" expanded="true" />
+            <element signature="e#22#28#0" expanded="true" />
+            <element signature="e#27#33#0" expanded="true" />
+            <element signature="e#33#39#0" expanded="true" />
+            <element signature="e#39#45#0" expanded="true" />
+            <element signature="e#45#51#0" expanded="true" />
+            <element signature="e#51#57#0" expanded="true" />
+            <element signature="e#57#63#0" expanded="true" />
+            <element signature="e#63#69#0" expanded="true" />
+            <element signature="e#69#75#0" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,12 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/public/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/storage/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index/wx.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -517,30 +539,10 @@
     <entry file="file://$PROJECT_DIR$/resources/views/login/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="66" />
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding>
-            <element signature="e#46#82#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index/aouth.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -561,10 +563,33 @@
     <entry file="file://$PROJECT_DIR$/resources/views/index/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
-          <caret line="43" column="77" lean-forward="true" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
+          <caret line="43" column="77" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="77" />
           <folding>
             <element signature="e#2817#2851#0#HTML" expanded="true" />
             <element signature="e#2901#2935#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/storage/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index/aouth.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="12" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

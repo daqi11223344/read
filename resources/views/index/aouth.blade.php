@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>扫码</title>
 </head>
 <body>
 <img src="{{url('./storage/1.png')}}" alt="">

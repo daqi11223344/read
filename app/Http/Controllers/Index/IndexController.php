@@ -18,10 +18,11 @@ class IndexController extends Controller
         $obj = new QRcode();
         //区分是谁登录的
 
-        $uri = "http://www.read.com/oauth?uid=".$uid;
-        echo $uri;die;
+        $uri = "http://qq.wangzhimo.top/oauth?uid=".$uid;
+//        echo $uri;die;
 
         $obj -> png($uri,storage_path('app/public/1.png'));
+//        echo $obj;
     }
 
     public function oauth()
@@ -29,7 +30,7 @@ class IndexController extends Controller
         $uid = $_GET['uid'];
 //        dd($uid);
         $id = "wx92b4938777947dcd";
-        $uri = urldecode("http://www.read.com/logi");
+        $uri = urldecode("http://qq.wangzhimo.top/logi");
         $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=$id&redirect_uri=$uri&response_type=code&scope=snsapi_base&state=$uid#wechat_redirect";
         header("location:$url");
     }
@@ -43,8 +44,8 @@ class IndexController extends Controller
 
     public function logi(){
         $code=$_GET['code'];
-        $appid='wxb48cca98c04caf2a';
-        $se='57b0c72a414a0152ac64b3378a8ef2e0';
+        $appid='wx92b4938777947dcd';
+        $se='85a648b9aab288da647c4252d3396683';
         $url='https://api.weixin.qq.com/sns/oauth2/access_token?appid='.$appid.'&secret='.$se.'&code='.$code.'&grant_type=authorization_code';
         $get=file_get_contents($url);
         $arr=json_decode($get,true);
