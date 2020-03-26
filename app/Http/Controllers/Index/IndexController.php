@@ -85,7 +85,7 @@ class IndexController extends Controller
             if($res['pwd']==$pwd){
                 session(['tel'=>$tel]);
                 echo '<b style="color:darkgreen">登陆成功，正在为您跳转。。。。。。》</b>';
-                header("refresh:2,url='index");
+                header("refresh:2,url='/'");
             }else{
                 echo '<b style="color:red">密码不正确请您重新填写,正在为您跳转。。。。。</b>';
                 header("refresh:2,url='login");
