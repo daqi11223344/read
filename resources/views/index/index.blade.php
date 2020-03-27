@@ -40,7 +40,8 @@
     </script><!--[if lt IE 7]><script src="static/js/dd_belatedpng.js" mce_src="DD_belatedPNG.js"></script><script type="text/javascript">        DD_belatedPNG.fix('.prev, .next, .dotted, .fantasy, .edit_ctrl span, .edit_ctrl a, .line2, .box2_left em, .help, a.aleft, a.aright, .QQ, .bottom_tool a, .msgup, .msgdown, .juanbox li a, .p_searchbtn, #sword, .QQ_ICO, .QQ_icon, .cm_writer, #PLoginImg img');
     </script><![endif]--></head><body><link rel="stylesheet" type="text/css" href="static/css/index.css" />
 <!-- 顶部导航 --><div id="topNav" class="topNav">
-    <b><a style="color:darkblue;float:right" href="{{url('aouth')}}">❧扫码登录❧</a></b>
+    <b><a style="color:darkblue;float:right" href="{{url('reg')}}">ღ注册ღ</a></b>
+    <b><a style="color:darkblue;float:right" href="{{url('aouth')}}">❧扫码登录❧|</a></b>
     <b><a style="color:darkblue;float:right" href="{{url('login')}}">❦手机号登录❦|</a></b>
 </div>
 <!-- 顶部导航的模板 -->

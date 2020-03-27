@@ -24,4 +24,7 @@ Route::get('oauth','Index\IndexController@oauth');
 
 Route::get('login','Index\IndexController@login');
 Route::post('dologin','Index\IndexController@dologin');
+Route::get('reg','Index\IndexController@reg');
+Route::post('doreg','Index\IndexController@doreg');
+
 Route::get('wx','Index\IndexController@wx');

@@ -99,4 +99,68 @@ class IndexController extends Controller
         }
     }
 
+    public function reg()
+    {
+        return view('login/reg');
+    }
+
+    public function doreg()
+    {
+//        $str = session('str');
+//        $code = $_POST['code'];
+        $tel = $_POST['tel'];
+        $pwd = $_POST['pwd'];
+        $pwds = $_POST['pwds'];
+        $arr = [
+            'tel' => $tel,
+            'pwd' => $pwd
+        ];
+
+//        if ($str != $code) {
+//            echo '您的验证码不正确,正在为您跳转。。。';
+//            header("refresh:2,url='reg'");
+//            die;
+//        }
+        if ($pwd != $pwds) {
+            echo '<b style="color:red">两次密码不正确请您重新填写,正在为您跳转。。。。。</b>';
+            header("refresh:2,url='reg'");
+            die;
+        }
+        $res = Read::insert($arr);
+        if ($res) {
+            echo '<b style="color:darkgreen">注册成功，正在为您跳转。。。。。。》</b>';
+            header("refresh:2,url='login'");
+        }
+    }
+
+        //注册验证码
+        public function code(){
+        $tel=request()->input('tel');
+        $str = rand(1000,9999);
+        session(['str'=>$str]);
+            $host = "http://dingxin.market.alicloudapi.com";
+            $path = "/dx/sendSms";
+            $method = "POST";
+            $appcode = "48fa2af8f54d4a6fada4e7ec7f5df15a";
+            $headers = array();
+            array_push($headers, "Authorization:APPCODE " . $appcode);
+            $querys = "mobile=$tel&param=code%3A$str&tpl_id=TP1711063";
+            $bodys = "";
+            $url = $host . $path . "?" . $querys;
+
+            $curl = curl_init();
+            curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
+            curl_setopt($curl, CURLOPT_URL, $url);
+            curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
+            curl_setopt($curl, CURLOPT_FAILONERROR, false);
+            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curl, CURLOPT_HEADER, false);
+            if (1 == strpos("$".$host, "https://"))
+            {
+                curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+                curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+            }
+            echo curl_exec($curl);
+        }
+
 }
