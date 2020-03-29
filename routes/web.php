@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/','Index\IndexController@index');
+Route::get('inde','Index\IndexController@inde');
 Route::get('ewm','Index\IndexController@ewm');
 Route::get('aouth','Index\IndexController@aouth');
 Route::get('oauth','Index\IndexController@oauth');
@@ -26,5 +27,6 @@ Route::get('login','Index\IndexController@login');
 Route::post('dologin','Index\IndexController@dologin');
 Route::get('reg','Index\IndexController@reg');
 Route::post('doreg','Index\IndexController@doreg');
+Route::post('code','Index\IndexController@code');
 
 Route::get('wx','Index\IndexController@wx');

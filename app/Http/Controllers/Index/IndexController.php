@@ -70,6 +70,12 @@ class IndexController extends Controller
         return view('index/index');
     }
 
+    public function inde()
+    {
+//        dd(121213);
+        return view('index/inde');
+    }
+
     public function login()
     {
         return view('login/login');
@@ -85,7 +91,7 @@ class IndexController extends Controller
             if($res['pwd']==$pwd){
                 session(['tel'=>$tel]);
                 echo '<b style="color:darkgreen">登陆成功，正在为您跳转。。。。。。》</b>';
-                header("refresh:2,url='/'");
+                header("refresh:2,url='inde'");
             }else{
                 echo '<b style="color:red">密码不正确请您重新填写,正在为您跳转。。。。。</b>';
                 header("refresh:2,url='login");
@@ -106,8 +112,8 @@ class IndexController extends Controller
 
     public function doreg()
     {
-//        $str = session('str');
-//        $code = $_POST['code'];
+        $str = session('str');
+        $code = $_POST['code'];
         $tel = $_POST['tel'];
         $pwd = $_POST['pwd'];
         $pwds = $_POST['pwds'];
@@ -116,11 +122,11 @@ class IndexController extends Controller
             'pwd' => $pwd
         ];
 
-//        if ($str != $code) {
-//            echo '您的验证码不正确,正在为您跳转。。。';
-//            header("refresh:2,url='reg'");
-//            die;
-//        }
+        if ($str != $code) {
+            echo '您的验证码不正确,正在为您跳转。。。';
+            header("refresh:2,url='reg'");
+            die;
+        }
         if ($pwd != $pwds) {
             echo '<b style="color:red">两次密码不正确请您重新填写,正在为您跳转。。。。。</b>';
             header("refresh:2,url='reg'");
