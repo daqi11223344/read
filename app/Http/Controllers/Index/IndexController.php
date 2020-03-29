@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use QRcode;
 use App\Model\Read;
+use App\Model\Book;
 
 class IndexController extends Controller
 {
@@ -67,14 +68,15 @@ class IndexController extends Controller
     public function index()
     {
 //        dd(121213);
-        return view('index/index');
+        $data = Book::orderBy('cs','desc')->take(5)->get();
+        return view('index/index',['data'=>$data]);
     }
 
-    public function inde()
-    {
-//        dd(121213);
-        return view('index/inde');
-    }
+//    public function inde()
+//    {
+////        dd(121213);
+//        return view('index/inde');
+//    }
 
     public function login()
     {
@@ -91,7 +93,7 @@ class IndexController extends Controller
             if($res['pwd']==$pwd){
                 session(['tel'=>$tel]);
                 echo '<b style="color:darkgreen">登陆成功，正在为您跳转。。。。。。》</b>';
-                header("refresh:2,url='inde'");
+                header("refresh:2,url='/'");
             }else{
                 echo '<b style="color:red">密码不正确请您重新填写,正在为您跳转。。。。。</b>';
                 header("refresh:2,url='login");
@@ -139,8 +141,8 @@ class IndexController extends Controller
         }
     }
 
-        //注册验证码
-        public function code(){
+    //注册验证码
+    public function code(){
         $tel=request()->input('tel');
         $str = rand(1000,9999);
         session(['str'=>$str]);
@@ -169,4 +171,24 @@ class IndexController extends Controller
             echo curl_exec($curl);
         }
 
+    public function list()
+    {
+        $name = $_GET['name'];
+        $data = Book::where('name','=',$name)->first();
+        if($data==null){
+            $data = Book::where('zuozhe','=',$name)->first();
+            if($data==null){
+                echo "<b style='color:red'>不好意思您搜索的作者或书籍不存在，请您确认过后重新搜索</b>";
+                header("refresh:2,url='/'");
+                die;
+            }
+        }
+
+        if($data){
+            Book::where('id','=',$data->id)->increment('cs',1);
+        }
+        return view('index/list',['data'=>$data]);
+    }
 }
+
+

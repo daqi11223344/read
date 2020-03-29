@@ -22,6 +22,7 @@ Route::get('inde','Index\IndexController@inde');
 Route::get('ewm','Index\IndexController@ewm');
 Route::get('aouth','Index\IndexController@aouth');
 Route::get('oauth','Index\IndexController@oauth');
+Route::get('list','Index\IndexController@list');
 
 Route::get('login','Index\IndexController@login');
 Route::post('dologin','Index\IndexController@dologin');
