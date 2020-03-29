@@ -68,8 +68,15 @@ class IndexController extends Controller
     public function index()
     {
 //        dd(121213);
+        $res=Book::orderBy('cs', 'desc')->pluck('name');
+        $a = $res[1];
+        $b = $res[2];
+        $c = $res[3];
+        $d = $res[4];
+//        $e = $res[4];
+
         $data = Book::orderBy('cs','desc')->take(5)->get();
-        return view('index/index',['data'=>$data]);
+        return view('index/index',['data'=>$data,'a'=>$a,'b'=>$b,'c'=>$c,'d'=>$d]);
     }
 
 //    public function inde()
