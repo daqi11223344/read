@@ -109,7 +109,7 @@ var searchUrl = "/search/searchindex/type/p1/wd/p2.html";
                 <input type="hidden" value="{{$data->id}}" name="yue">
                 <input class="but03 btnDashang" type="submit" value="点击投票月票">
             </form>
-           </td><td><a id="openRecommendPopupBtn" href="javascript:;" class="but04 btnTuijian">投推荐票</a></td></tr></table></div><div class="title"><a href="http://yunqi.qq.com">首页</a>&gt;
+           </td><td><a id="openRecommendPopupBtn" href="{{url('tou')}}" class="but04 btnTuijian">去打赏</a></td></tr></table></div><div class="title"><a href="http://yunqi.qq.com">首页</a>&gt;
         <a href="http://yunqi.qq.com/bk/xdyq/">现代言情</a>&gt;
         <a href="http://yunqi.qq.com/bk/xdyq/xx30027/">都市异能</a>&gt;
         <strong>

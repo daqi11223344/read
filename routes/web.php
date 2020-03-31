@@ -32,3 +32,9 @@ Route::post('code','Index\IndexController@code');
 
 Route::get('wx','Index\IndexController@wx');
 Route::get('yue','Index\IndexController@yue');
+Route::get('tou','Index\IndexController@tou');
+
+
+Route::get('alipay','Index\IndexController@alipay');
+Route::get('return','Index\IndexController@return');
+Route::post('notify','Index\IndexController@notify');

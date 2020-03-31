@@ -9,26 +9,29 @@ class AliController extends Controller
 {
     public function alipay()
     {
-        //沙箱支付宝网关
-        $url='https://openapi.alipaydev.com/gateway.do';
 
-        //公共请求参数
-        $appid='2016101300673001';
+        $ali_gateway = 'https://openapi.alipaydev.com/gateway.do';  //支付网关
+//        dd($ali_gateway);
+        // 公共请求参数
+        $appid = '2016101300676944';
         $method = 'alipay.trade.page.pay';
         $charset = 'utf-8';
         $signtype = 'RSA2';
         $sign = '';
         $timestamp = date('Y-m-d H:i:s');
         $version = '1.0';
-        $return_url = 'http://api.bianaoao.top/alipay/return';       // 支付宝同步通知
-        $notify_url = 'http://api.bianaoao.top/alipay/notify';     // 支付宝异步通知地址
+        $return_url = 'http://api.wangzhimo.top/test/alipay/return';       // 支付宝同步通知
+        $notify_url = 'http://api.wangzhimo.top/test/alipay/notify';        // 支付宝异步通知地址
         $biz_content = '';
-
         //请求参数
         $out_trade_no = time() . rand(1111,9999);       //商户订单号
         $product_code = 'FAST_INSTANT_TRADE_PAY';
-        $total_amount = 514704.22;
-        $subject = '测试订单' . $out_trade_no;
+        $total_amount = $_GET['amount']??"";
+        if($total_amount==''){
+            echo '请您至少选择一个商品';
+            die;
+        }
+        $subject = '月票订单' . $out_trade_no;
 
         $request_param = [
             'out_trade_no'  => $out_trade_no,
@@ -81,11 +84,13 @@ class AliController extends Controller
 
     //支付同步跳转
     public function return(){
+//        dd(qqq);
         echo "支付成功 同步跳转";
     }
 
     //支付宝异步跳转
-    public function notify(){
+    public function notify()
+    {
         // 1 接收 支付宝的POST数据
         //$data1 = file_get_contents("php://input");
         $data2 = json_encode($_POST);
