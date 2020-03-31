@@ -79,7 +79,37 @@ var searchUrl = "/search/searchindex/type/p1/wd/p2.html";
 <div class="title"><i class="grey">
 <img class="qqredaer_tit" src="static/picture/qqread.png" title="觉醒后我征服了全世界" width="25"
                  height="25"/></i><a href="http://yunqi.qq.com/bk/xdyq/26878703.html"
-           title="觉醒后我征服了全世界官网"><b>&nbsp;{{$data->name}}</b></a><i>连载中</i><!--<span>|</span>--><!--<i>--><!----><!--<a href="/bookreader/all/26878703/1.html" title="觉醒后我征服了全世界全文阅读">全文阅读</a>--><!----><!--</i>--></div><div class="tag"><div class="y"><a href="javascript:void(0)" title="觉醒后我征服了全世界">签约作品</a></div><div class="y"><a href="javascript:void(0)" title="觉醒后我征服了全世界">付费作品</a></div></div><div class="auther">        书号：26878703</div><div class="tablist"><ul><li class="this" ><a href="http://yunqi.qq.com/bk/xdyq/26878703.html">介绍</a></li><li  ><a href="http://yunqi.qq.com/bk/xdyq/AGoEMl1oVjAAMlRjATEBZw-l.html" class="active">目录</a></li><li class="midline">|</li><li><a target='_blank' href="http://account.book.qq.com/bk/author/ADZQOAdoWWtcMwtqV2dTYgA%25252FWzY%25253D" class="active">作者</a></li><li class="midline">|</li><li  ><a href="http://yunqi.qq.com/bk/xdyq/26878703-f.html" class="active">粉丝</a></li><li class="midline">|</li></ul></div><div class="searchbox"><div class="inp"><span id="searchType" type="all" class="search_tit" style="margin:2px 0 0 2px;">全部</span><input id="searchInput" class="searchinput" type="text" maxlength="20" style="margin-top:4px;" /><!--搜索下拉小菜单--><div id="searchTypeDropdown" class="index_sub_serach" style="top:32px;left:2px;"><a href="javascript:" type="all">全部</a><a href="javascript:" type="chuangshi">创世</a><a href="javascript:" type="yunqi">云起</a><a href="javascript:" type="dushu">图书</a></div></div><div class="btn"><a id="searchBtn" class="search_btn" href="javascript:">搜 索</a></div></div></div><!--书名及搜索end--><!--作品简介和作者--><div class="main2"><div class="left"><div class="cover"><!-- 限时免费的提示 --><cite id="discountTag" style="display:none;"></cite><em id="discountTime" style="display:none;"></em><a href="http://yunqi.qq.com/bk/xdyq/AGoEMl1oVjAAMlRjATEBZw-l.html" class="bookcover"><img src="static/picture/t5_26878703.jpg" width="204" height="255" alt="觉醒后我征服了全世界"></a></div><div class="button1"><table width="216" height="100" border="0"><tr><td><a href="javascript:;" class="but01" id="addtobookshelf">加入书架</a></td><td><a id="readNow" href="http://yunqi.qq.com/bk/xdyq/AGoEMl1oVjAAMlRjATEBZw-l.html" alt=",最新章节,目录" class="but02">立即阅读</a></td></tr><tr><td><a id="openRewardPopupBtn" href="javascript:;" class="but03 btnDashang">打赏作者</a></td><td><a id="openRecommendPopupBtn" href="javascript:;" class="but04 btnTuijian">投推荐票</a></td></tr></table></div><div class="title"><a href="http://yunqi.qq.com">首页</a>&gt;
+           title="觉醒后我征服了全世界官网"><b>&nbsp;{{$data->name}}</b></a><i>连载中</i><!--<span>|</span>--><!--<i>--><!---->
+           <!--<a href="/bookreader/all/26878703/1.html" title="觉醒后我征服了全世界全文阅读">全文阅读</a>--><!----><!--</i>--></div>
+           <div class="tag"><div class="y">
+           <a href="javascript:void(0)" title="觉醒后我征服了全世界">签约作品</a></div>
+           <div class="y"><a href="javascript:void(0)" title="觉醒后我征服了全世界">付费作品</a></div></div>
+           <div class="auther">        书号：26878703</div><div class="tablist"><ul><li class="this" >
+           <a href="http://yunqi.qq.com/bk/xdyq/26878703.html">介绍</a></li><li  >
+           <a href="http://yunqi.qq.com/bk/xdyq/AGoEMl1oVjAAMlRjATEBZw-l.html" class="active">目录</a></li>
+           <li class="midline">|</li><li>
+           <a target='_blank' href="http://account.book.qq.com/bk/author/ADZQOAdoWWtcMwtqV2dTYgA%25252FWzY%25253D" class="active">作者</a></li>
+           <li class="midline">|</li><li  >
+           <a href="http://yunqi.qq.com/bk/xdyq/26878703-f.html" class="active">粉丝</a></li>
+           <li class="midline">|</li></ul></div>
+           <div class="searchbox">
+           <div class="inp"><span id="searchType" type="all" class="search_tit" style="margin:2px 0 0 2px;">全部</span>
+           <input id="searchInput" class="searchinput" type="text" maxlength="20" style="margin-top:4px;" /><!--搜索下拉小菜单-->
+           <div id="searchTypeDropdown" class="index_sub_serach" style="top:32px;left:2px;"><a href="javascript:" type="all">全部</a>
+           <a href="javascript:" type="chuangshi">创世</a>
+           <a href="javascript:" type="yunqi">云起</a>
+           <a href="javascript:" type="dushu">图书</a></div></div>
+           <div class="btn"><a id="searchBtn" class="search_btn" href="javascript:">搜 索</a></div></div></div>
+           <!--书名及搜索end--><!--作品简介和作者--><div class="main2"><div class="left"><div class="cover">
+           <!-- 限时免费的提示 --><cite id="discountTag" style="display:none;"></cite><em id="discountTime" style="display:none;"></em>
+           <a href="http://yunqi.qq.com/bk/xdyq/AGoEMl1oVjAAMlRjATEBZw-l.html" class="bookcover"><img src="static/picture/t5_26878703.jpg" width="204" height="255" alt="觉醒后我征服了全世界"></a></div><div class="button1"><table width="216" height="100" border="0"><tr><td><a href="javascript:;" class="but01" id="addtobookshelf">加入书架</a></td><td><a id="readNow" href="http://yunqi.qq.com/bk/xdyq/AGoEMl1oVjAAMlRjATEBZw-l.html" alt=",最新章节,目录" class="but02">立即阅读</a></td></tr><tr><td>
+<!--           <a id="openRewardPopupBtn" href="javascript:;" class="but03 btnDashang">打赏作者</a>-->
+        <form action="{{url('yue')}}" method="get">
+                @csrf
+                <input type="hidden" value="{{$data->id}}" name="yue">
+                <input class="but03 btnDashang" type="submit" value="点击投票月票">
+            </form>
+           </td><td><a id="openRecommendPopupBtn" href="javascript:;" class="but04 btnTuijian">投推荐票</a></td></tr></table></div><div class="title"><a href="http://yunqi.qq.com">首页</a>&gt;
         <a href="http://yunqi.qq.com/bk/xdyq/">现代言情</a>&gt;
         <a href="http://yunqi.qq.com/bk/xdyq/xx30027/">都市异能</a>&gt;
         <strong>

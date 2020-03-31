@@ -31,3 +31,4 @@ Route::post('doreg','Index\IndexController@doreg');
 Route::post('code','Index\IndexController@code');
 
 Route::get('wx','Index\IndexController@wx');
+Route::get('yue','Index\IndexController@yue');

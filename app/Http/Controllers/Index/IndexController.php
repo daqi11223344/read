@@ -68,15 +68,10 @@ class IndexController extends Controller
     public function index()
     {
 //        dd(121213);
-        $res=Book::orderBy('cs', 'desc')->pluck('name');
-        $a = $res[1];
-        $b = $res[2];
-        $c = $res[3];
-        $d = $res[4];
-//        $e = $res[4];
-
-        $data = Book::orderBy('cs','desc')->take(5)->get();
-        return view('index/index',['data'=>$data,'a'=>$a,'b'=>$b,'c'=>$c,'d'=>$d]);
+        $data=Book::orderBy('cs','desc')->take(5)->get();
+        $datas=Book::orderBy('cs','desc')->take(10)->get();
+        $yue=Book::orderBy('yue','desc')->take(10)->get();
+        return view('index/index',['data'=>$data,'datas'=>$datas,'yue'=>$yue]);
     }
 
 //    public function inde()
@@ -195,6 +190,18 @@ class IndexController extends Controller
             Book::where('id','=',$data->id)->increment('cs',1);
         }
         return view('index/list',['data'=>$data]);
+    }
+
+    //月票投票
+    public function yue(){
+        $yue=$_GET['yue'];
+//        dd($yue);
+        $res=Book::where('id','=',$yue)->increment('yue');
+//        dd($res);
+        if($res){
+            echo '<h2 style="color:firebrick">投票成功，感谢你的支持，正在为您跳转页面</h2>';
+            header("refresh:2,url='/'");
+        }
     }
 }
 
