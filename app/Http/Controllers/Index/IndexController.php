@@ -288,6 +288,7 @@ class IndexController extends Controller
     public function return(){
 //        dd(qqq);
         echo "支付成功 同步跳转";
+        header("refresh:2,url='/'");
     }
 
     //支付宝异步跳转
