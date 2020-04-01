@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="943ffe1a-9fdd-4171-8322-e2b6928aa59e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +27,10 @@
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,7 +41,7 @@
           <entry key="css" value="1" />
           <entry key="env" value="2" />
           <entry key="html" value="1" />
-          <entry key="php" value="30" />
+          <entry key="php" value="32" />
           <entry key="png" value="6" />
           <entry key="yml" value="1" />
         </counts>
@@ -49,7 +52,7 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="6" />
-          <entry key="PHP" value="19" />
+          <entry key="PHP" value="21" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="YAML" value="1" />
         </counts>
@@ -57,14 +60,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="21" />
-          <entry key="php" value="3829" />
+          <entry key="php" value="3962" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Blade" value="1953" />
           <entry key="HTML" value="1" />
-          <entry key="PHP" value="1875" />
+          <entry key="PHP" value="2008" />
           <entry key="PLAIN_TEXT" value="21" />
         </counts>
       </usages-collector>
@@ -72,20 +75,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="290" column="36" selection-start-line="290" selection-start-column="36" selection-end-line="290" selection-end-column="36" />
               <folding>
                 <element signature="e#46#82#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/LoginMiddleware.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+              <folding>
+                <element signature="e#28#68#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Alipay/AliController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1152">
+            <state relative-caret-position="1548">
               <caret line="87" column="25" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="25" />
             </state>
           </provider>
@@ -112,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="131">
+              <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -194,10 +211,12 @@
         <option value="$PROJECT_DIR$/resources/views/index/list.blade.php" />
         <option value="$PROJECT_DIR$/storage/keys/app_priv" />
         <option value="$PROJECT_DIR$/storage/keys/app_pub" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/index/tou.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Alipay/AliController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/LoginMiddleware.php" />
       </list>
     </option>
   </component>
@@ -315,8 +334,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="186" />
-    <option name="y" value="76" />
+    <option name="x" value="258" />
+    <option name="y" value="-22" />
     <option name="width" value="1163" />
     <option name="height" value="532" />
   </component>
@@ -366,6 +385,13 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
               <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="read" type="b2602c69:ProjectViewProjectNode" />
+              <item name="read" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="read" type="b2602c69:ProjectViewProjectNode" />
@@ -462,12 +488,13 @@
       <workItem from="1585535616212" duration="3714000" />
       <workItem from="1585608128164" duration="5281000" />
       <workItem from="1585660864403" duration="6458000" />
-      <workItem from="1585697501088" duration="961000" />
+      <workItem from="1585697501088" duration="1565000" />
+      <workItem from="1585717076461" duration="798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86064000" />
+    <option name="totallyTimeSpent" value="87466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,7 +509,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27912253" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28286493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TODO" order="0" weight="0.40554157" />
@@ -621,6 +648,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="290" column="36" selection-start-line="290" selection-start-column="36" selection-end-line="290" selection-end-column="36" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Alipay/AliController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1998">
@@ -649,34 +693,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+          <folding>
+            <element signature="e#28#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="131">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Alipay/AliController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/LoginMiddleware.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Index/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="290" column="36" selection-start-line="290" selection-start-column="36" selection-end-line="290" selection-end-column="36" />
-          <folding>
-            <element signature="e#46#82#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
