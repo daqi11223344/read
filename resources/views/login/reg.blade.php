@@ -69,7 +69,7 @@
             dataType:'JSON',
             success:function(res){
                 if(res.return_code==00000){
-                    alert('ok');
+                    alert('验证码已发送');
                 }
             }
         });
