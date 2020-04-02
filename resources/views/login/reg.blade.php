@@ -19,7 +19,7 @@
         <div class="main_left">
             {{--<img src="/static/images/zhuce-image-3.png" class="theimg"/>--}}
             {{--<img src="/static/images/zhuce-image-2.png" class="secimg"/>--}}
-            <img style="width: 500px" src="/static/images/2 (1).jpg" class="firimg"/>
+            <img style="width: 500px" src="/static/images/bk-zhuce-1.png" class="firimg"/>
         </div>
         <div class="main_right">
             <div class="main_r_up">

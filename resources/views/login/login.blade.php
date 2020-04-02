@@ -19,7 +19,7 @@
         <div class="main_left">
             {{--<img style="width: 400px" src="/static/images/2 (1).jpg" class="theimg"/>--}}
             {{--<img style="width: 400px" src="/static/images/2 (2).jpg" class="secimg"/>--}}
-            <img style="width: 500px" src="/static/images/2 (1).jpg" class="firimg"/>
+            <img style="width: 500px" src="/static/images/bk-login.png" class="firimg"/>
         </div>
         <div class="main_right">
             <div class="main_r_up">
